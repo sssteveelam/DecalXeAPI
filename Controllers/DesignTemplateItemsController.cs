@@ -13,7 +13,7 @@ namespace DecalXeAPI.Controllers
         private readonly IDesignTemplateItemService _designTemplateItemService;
 
         public DesignTemplateItemsController(IDesignTemplateItemService designTemplateItemService)
-        {
+        { 
             _designTemplateItemService = designTemplateItemService;
         }
 
